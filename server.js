@@ -18,6 +18,6 @@ app.use(UserRouter);
 //database connect
 connection()
   .then((_) => console.log("connect"))
-  .catch((err) => console.log(err));
+  .catch((err) => console.log("server is expired"));
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
